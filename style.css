@@ -1,10 +1,25 @@
-/* REGOLE GENERALI -----------------------------------------------------------*/
+/* REGOLE GENERALI --------------------------------------------*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
-  background-color: red;
+/* Regole del contenitore box */
+.box {
+  margin: 150px auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 600px;
+  width: 600px;
+
+}
+
+/* Regole del quadrato */
+.quadro {
+  background-color: #fff;
+  border: solid 1px #000;
+  width: 75px;
+  height: 75px;
 }
