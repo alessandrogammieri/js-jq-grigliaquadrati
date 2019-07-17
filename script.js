@@ -2,4 +2,11 @@
 15 di questi quadratini (scelti a caso all’inizio) se cliccati
 diventano rossi, gli altri diventano verdi */
 
-console.log("Ciao a tutti!!!!!!");
+$( document ).ready(function() {
+  $(".red").click(function() {
+    $(this).css("background-color", "red");
+  });
+  $(".green").click(function() {
+    $(this).css("background-color", "green");
+  });
+});

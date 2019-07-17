@@ -23,3 +23,19 @@
   width: 75px;
   height: 75px;
 }
+
+
+/* Regole Responsive */
+@media screen and (max-width: 768px) {
+  /* Regole del contenitore box */
+  .box {
+    margin: 100px auto;
+    width: 400px;
+    width: 400px;
+  }
+  /* Regole del quadrato */
+  .quadro {
+    width: 50px;
+    height: 50px;
+  }
+}
