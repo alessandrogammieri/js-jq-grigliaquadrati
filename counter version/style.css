@@ -1,4 +1,4 @@
-/* REGOLE GENERALI ----------------------------------------*/
+/* REGOLE GENERALI --------------------------------------------*/
 * {
   margin: 0;
   padding: 0;
@@ -13,11 +13,21 @@
   flex-wrap: wrap;
   width: 600px;
   width: 600px;
+}
 
+.contatore {
+  display: flex;
+  flex-direction: row;
 }
 
 /* Regole del quadrato */
 .quadro {
+  background-color: #fff;
+  border: solid 1px #000;
+  width: 75px;
+  height: 75px;
+}
+.quadrotwo {
   background-color: #fff;
   border: solid 1px #000;
   width: 75px;
